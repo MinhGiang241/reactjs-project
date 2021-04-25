@@ -23,6 +23,29 @@
   color: #61dafb;
 }
 
+.sidediv {
+  display: flex;
+  background-color: rgb(39, 112, 196);
+  justify-content: space-around;
+  z-index: 100;
+  color: white;
+}
+
+.active-tab {
+  background: rgb(76, 158, 0);
+}
+
+.componentdiv {
+}
+
+.element {
+  height: 50px;
+  flex: 1;
+  border: 1px solid white;
+}
+.element:hover {
+  cursor: pointer;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

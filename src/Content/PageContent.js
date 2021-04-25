@@ -9,7 +9,6 @@ export default class PageContent extends Component {
     const styles = {
       backgroundColor: isDarkMode ? "black" : "white",
       height: "100vh",
-      width: "100vw",
     };
     return <div style={styles}>{this.props.children}</div>;
   }

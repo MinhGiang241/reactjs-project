@@ -16,7 +16,10 @@ class Timer extends Component {
     console.log("in render");
     return (
       <div>
-        <h1>{this.state.time.getSeconds()}</h1>
+        <h1>
+          {this.state.time.getHours()}:{this.state.time.getMinutes()}:
+          {this.state.time.getSeconds()}
+        </h1>
       </div>
     );
   }

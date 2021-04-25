@@ -1,3 +1,5 @@
+import React from "react";
+
 function getNum() {
   return Math.floor(Math.random() * 10) + 1;
 }
